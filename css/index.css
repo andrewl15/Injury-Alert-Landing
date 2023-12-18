@@ -187,3 +187,10 @@
     }
 }
 
+.team-member_img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
