@@ -10,6 +10,6 @@ The source code is the file name MobileMuscleLearning.rar
 To run the windows application file make sure the Muscle Learning.exe and the Muscle Learning_Data are in the same location.
 Choose the desired resoluion and quality and start
 
-#Application
+# Application
 In the application, you can choose different body parts and inspect using the + menu on the top left
 The bar at the bottom rotates the body
