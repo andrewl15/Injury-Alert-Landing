@@ -106,6 +106,9 @@
     padding-top: 2%;
     padding-bottom: 2%;
 }
+.team img{
+    border-radius: 50%;
+}
 .team-members {
     margin-top: 3%;
     display: grid;
@@ -115,7 +118,8 @@
   
   .team-member {
     /* Styling for individual team members */
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
+    border-radius: 3px;
     padding: 20px;
   }
 .team h1{
