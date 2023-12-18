@@ -118,3 +118,36 @@
     text-decoration: underline;
 }
 
+.document-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.document-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.read-more-button {
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.read-more-button:hover {
+    background-color: #2980b9;
+}

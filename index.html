@@ -20,11 +20,11 @@
     <header>
         <a href="index.html" class="logo"><i class="ri-run-fill"></i></i><span>Injury Alert</span></a>
         <ul class="navbar">
-            <li><a href="#">Overview</a></li>
-            <li><a href="#">Video</a></li>
-            <li><a href="#">Interactive Prototype</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Documents</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#ptype">Interactive Prototype</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#documents">Documents</a></li>
         </ul>
         <div class="main">
             <div class="bx bx-menu" id="menu-icon"></div>
@@ -35,7 +35,7 @@
             <h1>Injury Alert</h1>
             <p>Sports Specific Injury Prevention</p>
         </div>
-        <div class=overview>
+        <div class="overview" id="overview">
             <h1>Overview</h1>
             <p>Problem and solution</p>
             <div class="ov-content">
@@ -53,34 +53,68 @@
                 <img src="./pics/overview.png">
             </div>
         </div>
-        <div class="video">
+        <div class="video" id="video">
             <h1>Video Prototype</h1>
             <p>Walkthrough</p>
         </div>
-        <div class="ptype">
+        <div class="ptype" id="ptype">
             <h1>Interactive Prototype</h1>
             <p>Walkthrough</p>
         </div>
-        <div class="team">
+        <div class="team" id="team">
             <h1>Team</h1>
             <div class="team-member">
+                <h3>Andrew Long</h3>
+                <p>Contributions Here:</p>
+                </br>
             </div>
             <div class="team-member">
+                <h3>Dhruv Patel</h3>
+                <p>Contributions Here:</p>
+                </br>
             </div>
             <div class="team-member">
+                <h3>SM Enamul Apan</h3>
+                <p>Contributions Here:</p>
+                </br>
             </div>
             <div class="team-member">
+                <h3>Nicolas Steuernagle</h3>
+                <p>Contributions Here:</p>
             </div>
         </div>
-        <div class="documents">
+        <div class="documents" id="documents">
             <h1>Documents</h1>
             <p>Our work</p>
+            <div class="document-container">
+                <a href="https://drive.google.com/file/d/1IvhDVbq9ipb7VptxbiRocxKgWB6DIqHL/view?usp=drive_link" class="read-more-button">Final Report</a>
+            </div>
+            <div class="document-container">
+                <a href="https://docs.google.com/presentation/d/1hZcTfjF9KaZ9xPZOZ9TT13HwzbRIqEb2qXW-I3GRVuY/edit?usp=sharing" class="read-more-button">Final Presentation</a>
+            </div>
+            <div class="document-container">
+                <a href="https://drive.google.com/file/d/1R98nhylMBxIvE-1je9idjNfQ4KhG4Ch-/view?usp=drive_link" class="read-more-button">Interview Questions and Results</a>
+            </div>
+            <div class="document-container">
+                <a href="https://drive.google.com/file/d/1ERXjznrDaPFqjCUs5H-MgGzcytB3bm0k/view?usp=sharing" class="read-more-button">Survey Questions and Results</a>
+            </div>
         </div>
     </div>
     <footer>
     </footer>
     <!--js link-->
     <script src="./javascript/navbar.js"></script>
+    <script><!-- Smooth scrolling script -->
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+        
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
 </body>
 
 </html>
