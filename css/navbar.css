@@ -5,7 +5,7 @@ body{
 }
 header{
     user-select: none;
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 0;
     right: 0;
@@ -13,8 +13,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
-    padding: 28px 12%;
+    background: var(--bg-color);
+    padding:5px 12%;
     transition: all .50s ease;
 }
 .logo{
@@ -71,6 +71,10 @@ header .navbar a:hover{
 @media (max-width: 1090px){
     #menu-icon{
         display: block;
+    }
+    header .logo{
+        font-size: x-small;
+
     }
     header .navbar{
         position: absolute;

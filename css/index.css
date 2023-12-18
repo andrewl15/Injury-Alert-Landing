@@ -6,8 +6,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 30%;
+    margin-right: 30%;
     padding-top: 2%;
     padding-bottom: 2%;
     margin-top: 150px;
@@ -50,7 +50,7 @@
     text-align: left;
 }
 .overview img{
-    width: 100%
+    width: 100%;
 }
 .video{
     background-color: white;
@@ -81,6 +81,11 @@
     padding-top: 2%;
     padding-bottom: 2%;
 }
+.ptype iframe{
+    margin-top: 3%;
+    width:  800px;
+    height: 600px;
+}
 .ptype h1{
     text-decoration: underline;
 }
@@ -97,8 +102,23 @@
     padding-top: 2%;
     padding-bottom: 2%;
 }
+.team-members {
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates a 2-column grid */
+    gap: 20px; /* Adjust the gap between items */
+  }
+  
+  .team-member {
+    /* Styling for individual team members */
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
 .team h1{
     text-decoration: underline;
+}
+.team p{
+    line-height: 200%;
 }
 
 .documents{
@@ -116,5 +136,46 @@
 }
 .documents h1{
     text-decoration: underline;
+}
+
+.document-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.document-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.read-more-button {
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.read-more-button:hover {
+    background-color: #2980b9;
+}
+
+@media (max-width: 1090px){
+    iframe{
+        width: 550px;
+        height: 400px
+    }
 }
 
